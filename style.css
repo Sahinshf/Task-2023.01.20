@@ -1,0 +1,171 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap");
+
+.services {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 40px;
+}
+
+.topPartContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.servicesContatiner {
+  display: flex;
+  width: 1200px;
+  height: 340px;
+  justify-content: space-between;
+  gap: 40px;
+}
+
+.infoMobileReady,
+.infoFixingBug,
+.infoHtmlCoding,
+.infoHighQuality {
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.titleOfService {
+  width: 100%;
+  text-align: left;
+  border-bottom: 3px green solid;
+  padding-bottom: 15px;
+  margin-bottom: 20px;
+}
+
+.iconAndTitle {
+  display: flex;
+  align-items: center;
+  column-gap: 10px;
+  margin: 10px;
+}
+
+.momobileTitle,
+.bugTitle,
+.htmlTitle,
+.qualityTitle {
+  color: green;
+}
+
+.mobileIcon,
+.bugIcon,
+.qualityIcon,
+.htmlIcon {
+  height: 80px;
+  width: 80px;
+  background-position: center;
+  mask-repeat: no-repeat;
+  background-size: cover;
+}
+
+.mobileText,
+.bugText,
+.htmlText,
+.qualityText {
+  padding: 12px;
+  font-size: 18px;
+  color: #888888;
+}
+
+.mobileIcon {
+  background-image: url(./chemistry\ icon.jpg);
+}
+
+.bugIcon {
+  background-image: url(./fixing\ bug.jpg);
+}
+
+.htmlIcon {
+  background-image: url(./HTML5\ CODING.png);
+}
+
+.qualityIcon {
+  background-image: url(./shield.jpg);
+}
+
+.teamTitle {
+  margin: 30px 0;
+  padding-bottom: 15px;
+  border-bottom: 3px black solid;
+}
+
+.teamMemberContainer {
+  display: flex;
+  width: 1200px;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.member1,
+.member2,
+.member3 {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  height: 500px;
+}
+
+.bella {
+  background-image: url(./bella\ hadid2.jpg);
+  position: relative;
+}
+
+.button {
+  width: 40px;
+  height: 40px;
+  background-position: center;
+  mask-repeat: no-repeat;
+  background-size: cover;
+  background-image: url(./button.png);
+  position: absolute;
+  bottom: -20px;
+  left: 130px;
+}
+
+.marilyn {
+  background-image: url(./marilyn\ monroe.jpg);
+  position: relative;
+}
+
+.adriana {
+  background-image: url(./adriana\ lima.jpg);
+  position: relative;
+}
+
+.bella,
+.marilyn,
+.adriana {
+  height: 360px;
+  width: 300px;
+  background-position: center;
+  mask-repeat: no-repeat;
+  background-size: cover;
+}
+
+.name,
+.profession {
+  font-size: 20px;
+  padding: 6px 0;
+}
+
+.name {
+  margin-top: 8px;
+}
+
+.profession {
+  font-style: italic;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+}
