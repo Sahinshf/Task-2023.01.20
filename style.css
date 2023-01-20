@@ -78,19 +78,19 @@
 }
 
 .mobileIcon {
-  background-image: url(./chemistry\ icon.jpg);
+  background-image: url(./images/chemistry\ icon.jpg);
 }
 
 .bugIcon {
-  background-image: url(./fixing\ bug.jpg);
+  background-image: url(./images/fixing\ bug.jpg);
 }
 
 .htmlIcon {
-  background-image: url(./HTML5\ CODING.png);
+  background-image: url(./images/HTML5\ CODING.png);
 }
 
 .qualityIcon {
-  background-image: url(./shield.jpg);
+  background-image: url(./images/shield.jpg);
 }
 
 .teamTitle {
@@ -116,7 +116,7 @@
 }
 
 .bella {
-  background-image: url(./bella\ hadid2.jpg);
+  background-image: url(./images/bella\ hadid2.jpg);
   position: relative;
 }
 
@@ -126,19 +126,19 @@
   background-position: center;
   mask-repeat: no-repeat;
   background-size: cover;
-  background-image: url(./button.png);
+  background-image: url(./images/button.png);
   position: absolute;
   bottom: -20px;
   left: 130px;
 }
 
 .marilyn {
-  background-image: url(./marilyn\ monroe.jpg);
+  background-image: url(./images/marilyn\ monroe.jpg);
   position: relative;
 }
 
 .adriana {
-  background-image: url(./adriana\ lima.jpg);
+  background-image: url(./images/adriana\ lima.jpg);
   position: relative;
 }
 
